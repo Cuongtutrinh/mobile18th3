@@ -32,6 +32,12 @@ const ExploreScreen = ({ navigation }) => {
             <Text>$3</Text>
           </View>
         </View>
+        
+        <Text style={styles.sectionTitle}>Popular Items</Text>
+        <View style={styles.foodContainer}>
+            <Image source={{ uri: 'https://via.placeholder.com/100' }} style={styles.foodImage} />
+            <Image source={{ uri: 'https://via.placeholder.com/100' }} style={styles.foodImage} />
+        </View>
       </ScrollView>
 
       {/* Thanh điều hướng */}
